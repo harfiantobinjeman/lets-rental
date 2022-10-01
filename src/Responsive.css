@@ -1,0 +1,47 @@
+/* Pengaturan responsifitas disesuaikan dengan ukuran layar yang tersedia */
+/* Phone */
+@media screen and (max-width: 768px){
+
+}
+/* Small Laptops */
+@media screen and (max-width: 992px){
+    #search-field input{
+        display: none;
+    }
+    #search-field button{
+        top: -15px;
+        background-color: white;
+        color: blue;
+    }
+    
+}
+/* Laptops and Desktops */
+@media only screen and (max-width: 600px) {
+    .carousel{
+        width: 100%;
+        height: 160px;
+        margin-top: 60px;
+        padding-bottom: none;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100px;
+        padding-top: 0px;
+        padding-bottom: none;
+    }
+    .fotoDalam{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .category-item{
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    .footers{
+        padding: 10px ;
+    }
+    .bg-primary{
+        position: grid;
+        overflow: auto;
+    }
+}
